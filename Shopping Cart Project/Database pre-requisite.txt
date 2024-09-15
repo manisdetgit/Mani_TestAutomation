@@ -1,0 +1,24 @@
+ 
+ 
+ *****************Pre requisite database setup*********************************
+ 
+ 
+*****************Database Creation query : *********************************
+ 
+ Create database shopping_cart
+ 
+*****************Table creation query : *********************************
+ 
+ create table product (product_id int, product_category varchar(50),product_name varchar(50),product_price double(8,2),product_availability int, product_total double(8,2))
+ 
+ *****************Insert data query : *********************************
+ 
+ insert into product values(1,'Mobile Phone','Iphone-15',50000.00,10,null);
+ insert into product values(2,'Toys','Car',567,8,null);
+ insert into product values(3,'Electronics','Charger',249.9,9,null);
+ insert into product values(4,'Dress','Churidhar',700,9,null);
+ insert into product values(5,'Accessories','Necklace',1500,9,null);
+ insert into product values(6,'Dress','Kurta',350,10,null);
+ insert into product values(7,'Electronics','Adapter',450,8,null);
+ insert into product values(8,'Toys','Bus',399.99,9,null);
+ 

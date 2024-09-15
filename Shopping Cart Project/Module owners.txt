@@ -1,0 +1,67 @@
+Our shopping Cart Main Menu :
+____________________________________________________________
+
+*****************************************
+       Welcome to UST Shopping Cart
+*****************************************
+Please select the option
+1. Search Products
+2. List All Products
+3. Add Products To Cart
+4. Display Cart Details
+5. Share your thoughts
+   a. Share your feedback
+   b. Register Complaints
+6. Exit
+ 
+Please Enter your option:
+
+____________________________________________________________
+
+
+
+Product class - Written by Unnimaya
+Package used - com.app
+	1.Declared the product variables
+	2.Created the getter and setter methods
+	3.Created constructor	
+
+Inventory class - Written by Abhiram
+Package used - com.data
+	1.Declared the products list
+	2.Intialized products list in constructor
+	
+ShoppingCart class, Inventory and Product Interfaces   - Written by Nisha
+Package used - com.service,com.data,com.app
+	1.Created the product, quantity lists to capture the added products into carts
+	2.Implemented Inventory and Product Interfaces
+
+Cart class & Inventory class - Written by Mani
+Package used - com.service, com.util
+	1.Created method to display all products
+	2.Created method to search the products using product name
+	3.Created method to add products to cart
+	4.Created method to display cart details
+	5.Database connection in Inventory class to get the products data.
+	
+Feedback class & OrderDetails class - Written by Akhila
+Package used - com.service
+	1.Created method to allow users to give feedbacks
+	2.Created method to allow users to report complaints
+	3.Created the OrderDetails class 
+
+ProgramRunner class  - Written by Annmaria
+Package used - com.main
+	1.Created main method to list the main menu
+	2.Organized the menu options using Switch case
+	
+Inventory and Product Interfaces - Written by Thileeban
+Package used - com.data,com.app
+	1.Implemented Inventory and Product Interfaces
+
+____________________________________________________________
+
+
+
+  
+  
